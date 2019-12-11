@@ -1,5 +1,3 @@
-## 4. Run Simple Example Workflows
-
 `argo submit --watch https://raw.githubusercontent.com/argoproj/argo/master/examples/hello-world.yaml`{execute} 
 
 `argo submit --watch https://raw.githubusercontent.com/argoproj/argo/master/examples/coinflip.yaml`{execute}}

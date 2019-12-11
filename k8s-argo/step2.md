@@ -1,5 +1,3 @@
-## 2. Install the Controller and UI
-
 First check the kubernetes cluster is up and ready
 
 `kubectl get nodes -o wide`{{execute}}
