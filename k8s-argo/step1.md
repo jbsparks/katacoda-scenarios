@@ -1,7 +1,7 @@
-In this step you will deploy a service for a database, and modify your app code so that it uses the database.
+## Download Argo
 
-## Setup of Argo
+Download the latest Argo binary version from github
 
-Check the status of k8s
+`curl -sSL -o /usr/local/bin/agro https://github.com/argoproj/argo/release/download/v2.4.2/argo-linux-amd64`{{execute}}
 
-`kubectl get nodes -o wide`{{execute}}
+`chmod +x /usr/local/bin/argo` {{execute}}

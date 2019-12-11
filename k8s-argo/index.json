@@ -2,7 +2,7 @@
     "pathwayTitle": "An introduction to Argo on k8s",
     "title": "Argo/kubernetes",
     "description": "Running Argo with Kubernenetes",
-    "difficulty": "beginner",
+    "difficulty": "Intermediate",
     "time": "20-30 minutes",
     "details": {
         "steps": [
