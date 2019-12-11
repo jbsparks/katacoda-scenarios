@@ -12,9 +12,7 @@ Running a few simple examples of workflows.
 
 You can interact in the terminal and execute the following commands
 
-```bash
-argo list
-argo get xxx-workflow-name-xxx
-argo logs xxx-pod-name-xxx      #from get command above
-```
+`argo list`{{execute}}
+`argo get $(argo list | grep loops | awk '{print $1}')`{{execute}}
+`argo logs $(argo list | grep loops | awk '{print $1}')`{{execute}}
 
