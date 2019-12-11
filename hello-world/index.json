@@ -1,8 +1,8 @@
 {
-  "title": "Hello World Scenario Version 2.0",
-  "description": "Your First Scenario",
-  "difficulty": "beginner",
-  "time": "2 minutes",
+  "title": "Scenario Version 2.0",
+  "description": "First Scenario",
+  "difficulty": "Master",
+  "time": "20 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
