@@ -9,6 +9,10 @@
             {
                 "title": "1. Download Argo UI",
                 "text": "step1.md"
+            },
+            {
+                "title": "2. Install the Controller and UI",
+                "text": "step2.md"
             }
         ],
         "intro": {
