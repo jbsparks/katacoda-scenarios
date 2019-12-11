@@ -1,1 +1,1 @@
-intro place holder
+This Scenario will walk the user through seting up Argo on a kubernetes instance and will demonstrate a simple batch job using Argo.
