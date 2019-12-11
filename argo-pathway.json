@@ -1,0 +1,13 @@
+{
+    "title": "An Introduction to Shasta kubernetes workflow tools",
+    "description": "Supported by Cray, an HPE Enterprise Company",
+    "courses": [
+        {
+            "pathway_id": "js.seurat.io",
+            "id": "k8s-argo",
+            "course_id": "k8s-argo",
+            "title": "1-1: Getting started with kubernetes and Argo",
+            "description:": "Running Argo in kubernetes"
+        }
+    ]
+},
