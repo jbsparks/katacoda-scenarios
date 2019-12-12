@@ -1,1 +1,1 @@
-Err not sure what to write here yet -- placeholder
+The above was an introduction the argo, for more information visit https://github.com/argoproj/argo
