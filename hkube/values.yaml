@@ -1,0 +1,13 @@
+build_secret:
+# pull secret is only needed if docker hub is not accessible
+  pull:
+    registry: ''
+    namespace: ''
+    username: ''
+    password: ''
+# enter your docker hub / other registry credentials
+  push:
+    registry: '' # can be left empty for docker hub
+    namespace: '' # registry namespace - usually your username
+    username: ''
+    password: ''

@@ -14,6 +14,10 @@ configure helm `helm repo add hkube http://hkube.io/helm/`{{execute}}
 
 download hkubectl `curl -L https://github.com/kube-HPC/hkubectl/releases/download/v1.1.7/hkubectl.tgz | tar xvz`{{execute}}
 
-add hkubectl to bin path `cp ./hkubectl /usr/local/bin`{{execute}}
+add hkubectl to bin path `chmod +x hkubectl`{{execute}} `mv hkubectl /usr/loca/bin/`{{execute}}
 
 run `hkubectl -h`{{execute}}  as you can see there a lot of options available
+
+`hkubectl config set endpoint ${KUBERNETES-MASTER-IP}`{{execute}}
+
+`hkubectl config set rejectUnauthorized false`{{execute}}
