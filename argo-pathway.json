@@ -8,6 +8,13 @@
             "course_id": "k8s-argo",
             "title": "1-1: Getting started with kubernetes and Argo",
             "description:": "Running Argo in kubernetes"
+        },
+        {
+            "pathway_id": "js.seurat.io",
+            "id": "hkube",
+            "course_id": "hkube",
+            "title": "1-2: Getting started with hkube",
+            "description:": "Running hkube pipelines"
         }
     ]
-},
+}
