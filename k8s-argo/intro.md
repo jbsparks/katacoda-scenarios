@@ -7,4 +7,4 @@ For more information visit: https://github.com/argoproj/argo
 
 ## Argoproj - Get stuff done with Kubernetes
 
-![Argo Image](https://raw.githubusercontent.com/argoproj/argo/master/argo.png)
+![Argo Image](https://github.com/argoproj/argo/blob/master/docs/assets/argo.png)
