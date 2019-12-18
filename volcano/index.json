@@ -1,6 +1,6 @@
 {
     "pathwayTitle": "An introduction to Volcano",
-    "title": "Volcano/MPI/kubernetes",
+    "title": "Volcano, MPI, and kubernetes",
     "description": "Running Volcano",
     "difficulty": "Intermediate",
     "time": "20-30 minutes",
