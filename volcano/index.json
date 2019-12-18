@@ -21,6 +21,11 @@
                     "file": "job-01.yaml",
                     "target": "~/",
                     "chmod": "+r"
+                },
+                {
+                    "file": "job.yaml",
+                    "target": "~/",
+                    "chmod": "+r"
                 }
             ]
         },
