@@ -9,18 +9,6 @@
             {
                 "title": "1. Get going",
                 "text": "step1.md"
-            },
-            {
-                "title": "2. Install the Controller and UI",
-                "text": "step2.md"
-            },
-            {
-                "title": "3. Configure the service account to run workflows",
-                "text": "step3.md"
-            },
-            {
-                "title": "4. Run Simple Example Workflows",
-                "text": "step4.md"
             }
         ],
         "assets": {

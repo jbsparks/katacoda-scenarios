@@ -1,4 +1,4 @@
-Install hkubectl
+## Install hkubectl
 
 hkubectl is a tool which allows you to create most of the operations that you need in order to use hkube
 
@@ -19,7 +19,7 @@ add hkubectl to bin path `chmod +x hkubectl`{{execute}} `mv hkubectl /usr/local/
 
 run `hkubectl -h`{{execute}}  as you can see there a lot of options available
 
-`hkubectl config set endpoint ${KUBERNETES-MASTER-IP}`{{execute}}
+`kubectl cluster-info`{{execute}}
 
 `hkubectl config set rejectUnauthorized false`{{execute}}
 
