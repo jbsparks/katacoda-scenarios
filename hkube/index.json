@@ -23,6 +23,15 @@
                 "text": "step4.md"
             }
         ],
+        "assets": {
+            "master": [
+                {
+                    "file": "numbers.yml",
+                    "target": "~/",
+                    "chmod": "+r"
+                }
+            ]
+        },
         "intro": {
             "text": "intro.md",
             "credits": ""
@@ -38,15 +47,5 @@
     },
     "backend": {
         "imageid": "kubernetes"
-    },
-    "files": [
-        "hello.go",
-        "Dockerfile",
-        "pod.yaml",
-        "deployment.yaml",
-        "service.yaml",
-        "pg-cfg.yaml",
-        "pg-svc.yaml",
-        "pg-deployment.yaml"
-    ]
+    }
 }
