@@ -8,4 +8,4 @@ These types of applications typically run on generalized domain frameworks like 
 
 ## A Kuberenetes native system for High Performance Workload
 
-![Volcano Image](https://github.com/volcano-sh/volcano/blob/master/docs/images/volcano-logo.png)
+![Volcano Image](https://github.com/volcano-sh/volcano/blob/master/docs/images/volcano-logo-svg.svg)
