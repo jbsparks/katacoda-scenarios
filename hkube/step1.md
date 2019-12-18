@@ -21,6 +21,7 @@ run `hkubectl -h`{{execute}}  as you can see there a lot of options available
 
 `kubectl cluster-info`{{execute}}
 
+`hkubectl config set endpoint https://172.17.0.68:6443`{{execute}}
 `hkubectl config set rejectUnauthorized false`{{execute}}
 
 lets add labels to our kubernetes cluster we have to selectors one for hkube core modules and the second is for nodes you wish to run your algorithms. for this tutorial since we have only one node we will set it as core and as a worker for doing it we should run.
