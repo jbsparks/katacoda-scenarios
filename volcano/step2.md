@@ -1,10 +1,8 @@
-First check the kubernetes cluster is up and ready
-
+Run a simple test
 `kubectl get nodes -o wide`{{execute}}
 
-Create the kubernetes namespace
+`kubectl create -f job-01.yaml`{{execute}}
 
-`kubectl create namespace argo`{{execute}}
+`kubectl get jobs`{{execute}}
 
-
-`kubectl apply -n argo -f https://raw.githubusercontent.com/argoproj/argo/stable/manifests/install.yaml`{{execute}}
+`kubectl describe pod qj-1-2dbp2 | tail -7`{{execute}}
