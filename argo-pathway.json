@@ -15,6 +15,13 @@
             "course_id": "hkube",
             "title": "1-2: Getting started with hkube",
             "description:": "Running hkube pipelines"
+        },
+	{
+            "pathway_id": "js.seurat.io",
+            "id": "volvano",
+            "course_id": "volcano",
+            "title": "1-3: Getting started with volcano",
+            "description:": "Erupt with Computing Power"
         }
     ]
 }
