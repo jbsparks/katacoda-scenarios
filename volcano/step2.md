@@ -1,4 +1,4 @@
-Run a simple test
+Run a simple testa
 `kubectl get nodes -o wide`{{execute}}
 
 `kubectl create -f job-01.yaml`{{execute}}

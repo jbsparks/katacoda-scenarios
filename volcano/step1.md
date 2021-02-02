@@ -1,5 +1,7 @@
 ## Prerequists
 
+### Helm
+
 * Download helm 
 
 `curl -L https://storage.googleapis.com/kubernetes-helm/helm-v2.8.2-linux-amd64.tar.gz | tar xvz`{{execute}}
@@ -23,3 +25,15 @@ Now create a serviceaccount for tiller
 
 `kubectl get pods --all-namespaces | grep tiller`{{execute}}
 
+ ### volcano install
+
+ `kubectl apply -f https://raw.githubusercontent.com/volcano-sh/volcano/master/installer/volcano-development.yaml`{{execute}}
+
+ `kubectl get pods -n volcano-system`{{execute}}
+
+ `kubectl get services -n volcano-system`{{execute}}
+
+ `kubectl get deployments -n volcano-system`{{execute}}
+
+ `kubectl get rs -n volcano-system`{{execute}}
+ 
